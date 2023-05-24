@@ -4,6 +4,10 @@ import {Greet, Greet2, Greet3 } from "./components/Greet";
 import {Welcome, Welcome2} from "./components/Welcome";
 import Message from "./components/message";
 import Counter from "./components/Counter";
+import ClassClick from "./components/ClassClick";
+import FunctionClick from "./components/FunctionClick";
+import EventBind from "./components/EventBind";
+import UserGreeting from './components/UserGreeting';
 
 
 function App() {
@@ -22,6 +26,10 @@ function App() {
       <Welcome2 name="Hayden" nickname="Hayd"/>} */}
       <Message />
       <Counter />
+      <FunctionClick />
+      <ClassClick />
+      <EventBind />
+      <UserGreeting />
     </div>
   );
 }

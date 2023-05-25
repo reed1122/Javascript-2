@@ -14,12 +14,12 @@ class UserGreeting extends Component {
       return <h1>Welcome Guest. Logged out.</h1>;
     } */
 
-    let message;
+  /*   let message;
     if (this.state.isLoggedIn) {
       message = <div>Welcome Corey</div>;
     } else {
       message = <div>Welcome Guest</div>;
-    }
+    } */
     /* return <div>{message}</div>; */
 
     /* return this.state.isLoggedIn ? (

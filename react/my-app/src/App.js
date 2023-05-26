@@ -2,13 +2,15 @@ import logo from './logo.svg';
 import './App.css';
 import {Greet, Greet2, Greet3 } from "./components/Greet";
 import {Welcome, Welcome2} from "./components/Welcome";
-import Message from "./components/message";
+import Message from "./components/Message";
 import Counter from "./components/Counter";
 import ClassClick from "./components/ClassClick";
 import FunctionClick from "./components/FunctionClick";
 import EventBind from "./components/EventBind";
 import UserGreeting from './components/UserGreeting';
 import ParentComponent from './components/ParentComponent';
+import NameList from './components/NameList';
+import PersonList from './components/PersonList';
 
 
 function App() {
@@ -32,6 +34,8 @@ function App() {
       <EventBind />
       <UserGreeting /> */}
       <ParentComponent />
+      <NameList />
+      <PersonList />
     </div>
   );
 }
